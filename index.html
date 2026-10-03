@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Check-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>🖥️ PC Check-Up</h1>
+            <p>Check your computer's basic system information</p>
+        </header>
+
+        <div class="check-button">
+            <button onclick="runCheck()">Run PC Check</button>
+        </div>
+
+        <div id="status" class="status">
+            Click "Run PC Check" to start.
+        </div>
+
+        <div class="grid">
+
+            <div class="card">
+                <h2>💻 Operating System</h2>
+                <p id="os">Not checked</p>
+            </div>
+
+            <div class="card">
+                <h2>🌐 Browser</h2>
+                <p id="browser">Not checked</p>
+            </div>
+
+            <div class="card">
+                <h2>🧠 RAM</h2>
+                <p id="ram">Not checked</p>
+            </div>
+
+            <div class="card">
+                <h2>🖥️ Screen</h2>
+                <p id="screen">Not checked</p>
+            </div>
+
+            <div class="card">
+                <h2>🌍 Internet</h2>
+                <p id="internet">Not checked</p>
+            </div>
+
+            <div class="card">
+                <h2>🔋 Battery</h2>
+                <p id="battery">Not checked</p>
+            </div>
+
+            <div class="card">
+                <h2>⚙️ CPU Cores</h2>
+                <p id="cpu">Not checked</p>
+            </div>
+
+            <div class="card">
+                <h2>📱 Device</h2>
+                <p id="device">Not checked</p>
+            </div>
+
+        </div>
+
+        <div class="summary">
+            <h2>Check Summary</h2>
+            <p id="summary">No check has been performed yet.</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
